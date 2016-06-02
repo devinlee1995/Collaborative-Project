@@ -1,0 +1,13 @@
+#sidebox {
+	background-color: #006BB6;
+	height: 1000px;
+	width: 320px;
+	float:left;
+}
+
+#logo {
+	position: fixed;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
