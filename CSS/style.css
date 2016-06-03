@@ -1,6 +1,12 @@
+body {
+	max-width: 960px;
+	max-height: 500px;
+}
+
+
 #sidebox {
 	background-color: #006BB6;
-	height: 1000px;
+	height: 570px;
 	width: 320px;
 	float:left;
 }
@@ -8,10 +14,80 @@
 #logo {
 	position: fixed;
 	margin-top: 50px;
-	margin-right: auto;
-	margin-left: auto;
-
-	/*
-	HALLO
-	*/
+	margin-left: 75px;
 }
+
+ 
+#navigation {
+	float: right;
+	margin-top: 200px;
+	margin-right: 40px;
+}
+
+#mainContent {
+	float: right;
+	width: 640px;
+	height: 500px;
+	background-color: red;
+	display: inline-block;
+}
+
+#image1 {
+	float: center;
+	width: 960px;
+	height: 500px;
+	display: inline-block;
+}
+
+a.links {
+	text-decoration: none;
+	color: white;
+	font-family: 'Gotham Book';
+	font-size: 24px;
+	line-height: 48px;
+
+}
+
+a.links:hover {
+	text-decoration: underline;
+}
+
+li {
+	list-style: none;
+	text-decoration: none;
+	text-align: right;
+}
+
+p {
+	font-family: 'Gotham Light';
+	font-size: 15px;
+	color: black;
+
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+ 	src: url('fonts/Gotham-Bold.eot');
+ 	src: url('fonts/ufonts.com_gotham-bold.ttf')  format('truetype'), 
+ 	url('fonts/Gotham-Bold.woff') format('woff');
+ 	font-weight: 700;
+ 	font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Gotham Book';
+	src: url('fonts/Gotham-Book.eot');
+  	src: url('fonts/ufonts.com_gotham-book.ttf')  format('truetype'),
+  	url('fonts/Gotham-Book.woff') format('woff'); 
+ 	font-weight: 400;
+ 	font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Gotham Light';
+   src: url('fonts/Gotham-Light.eot');
+   src: url('fonts/ufonts.com_gotham-thin.ttf')  format('truetype'), 
+   url('fonts/Gotham-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+ }
