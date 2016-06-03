@@ -141,19 +141,3 @@ h1 {
 	list-style: none;
 	}
 
-#mainContent {
-	background-image: url("../images/Background.png");
-	background-repeat: repeat;
-	background-size: 10%;
-	height: 1000px;
-	width:640px;
-	margin-left:350px;
-}
-
-#image1 {
-	width: 600px;
-	height: 600px;
-	padding-top: 50px;
-	margin-left:150px;
-	text-align: justify;
-}
