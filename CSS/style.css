@@ -17,7 +17,6 @@ body {
 
 #logo {
 	position: fixed;
-<<<<<<< HEAD
 	margin-top: 50px;
 	margin-left: 75px;
 }
@@ -64,7 +63,6 @@ a.links {
 	font-size: 24px;
 	line-height: 48px;
 
-=======
 	margin-top: 100px;
 	margin-left: 50px;
 }
@@ -84,7 +82,6 @@ a.links {
 	text-decoration: none;
 	list-style: none;
 	line-height: 45px;
->>>>>>> devin_lee
 }
 
 a.links:hover {
@@ -92,7 +89,6 @@ a.links:hover {
 }
 
 li {
-<<<<<<< HEAD
 	list-style: none;
 	text-decoration: none;
 	text-align: right;
@@ -140,10 +136,10 @@ h1 {
    font-weight: 300;
    font-style: normal;
  }
-=======
+ li {
 	text-decoration: none;
 	list-style: none;
-}
+	}
 
 #mainContent {
 	background-image: url("../images/Background.png");
@@ -161,4 +157,3 @@ h1 {
 	margin-left:150px;
 	text-align: justify;
 }
->>>>>>> devin_lee
