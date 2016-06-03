@@ -1,8 +1,8 @@
 body {
-	margin: 0px;
-	padding: 0px;
+	padding: 0;
+    margin: 0;
 	width: 100%;
-	height: 500px;
+	height: 100%;
 }
 
 
@@ -12,13 +12,12 @@ body {
 	height: 100%;
 	width: 320px;
 	float:left;
-	position:fixed;
 }
 
 #logo {
 	position: fixed;
 	margin-top: 50px;
-	margin-left: 75px;
+	margin-left: 60px;
 }
 
  
@@ -36,6 +35,7 @@ body {
 }
 
 #image1 {
+	overflow:auto;
 	width: 100%;
 	height: 100%;
 	background-image: url("../images/Cinderella.jpg");
@@ -46,14 +46,38 @@ body {
 	background-position:right;
 }
 
-
-
 #text1 {
-	width: 57%;
+	width: 75%;
 	height: 100%;
-	margin: 100px;
-	position: relative; 
+	position: fixed; 
+	margin-top: 250px;
 	
+}
+
+#footer {
+	width: 220px;
+	height: 50px;
+	float: center;
+	position: absolute; 
+	bottom: 30px;    
+	margin-left: 55px;
+	margin-right:55px;
+}
+
+.fblogo {
+	display: inline-block;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.twitterlogo {
+	display: inline-block;
+	padding: 10px;
+}
+
+.instagramlogo {
+	display: inline-block;
+	padding: 10px;
 }
 
 a.links {
@@ -69,7 +93,7 @@ a.links {
 
 #navigation {
 	float: right;
-	margin-top: 300px;
+	margin-top: 200px;
 	margin-right: 50px;
 }
 
@@ -81,7 +105,7 @@ a.links {
 	font-family: Helvetica;
 	text-decoration: none;
 	list-style: none;
-	line-height: 45px;
+	line-height: 60px;
 }
 
 a.links:hover {
@@ -136,8 +160,3 @@ h1 {
    font-weight: 300;
    font-style: normal;
  }
- li {
-	text-decoration: none;
-	list-style: none;
-	}
-
