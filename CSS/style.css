@@ -12,10 +12,12 @@ body {
 	height: 100%;
 	width: 320px;
 	float:left;
+	position:fixed;
 }
 
 #logo {
 	position: fixed;
+<<<<<<< HEAD
 	margin-top: 50px;
 	margin-left: 75px;
 }
@@ -62,6 +64,27 @@ a.links {
 	font-size: 24px;
 	line-height: 48px;
 
+=======
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+#navigation {
+	float: right;
+	margin-top: 300px;
+	margin-right: 50px;
+}
+
+
+a.links {
+	color: white;
+	font-size: 24px;
+	letter-spacing: 1px;
+	font-family: Helvetica;
+	text-decoration: none;
+	list-style: none;
+	line-height: 45px;
+>>>>>>> devin_lee
 }
 
 a.links:hover {
@@ -69,6 +92,7 @@ a.links:hover {
 }
 
 li {
+<<<<<<< HEAD
 	list-style: none;
 	text-decoration: none;
 	text-align: right;
@@ -116,3 +140,25 @@ h1 {
    font-weight: 300;
    font-style: normal;
  }
+=======
+	text-decoration: none;
+	list-style: none;
+}
+
+#mainContent {
+	background-image: url("../images/Background.png");
+	background-repeat: repeat;
+	background-size: 10%;
+	height: 1000px;
+	width:640px;
+	margin-left:350px;
+}
+
+#image1 {
+	width: 600px;
+	height: 600px;
+	padding-top: 50px;
+	margin-left:150px;
+	text-align: justify;
+}
+>>>>>>> devin_lee
