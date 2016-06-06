@@ -30,7 +30,6 @@ body {
 #mainContent {
 	position: fixed;
 	width: 100%;
-	min-height: 100%;
 	margin-left: 320px;
 }
 
@@ -179,11 +178,12 @@ h1 {
 }
 
 #image2 {
+	overflow:scroll;
 	padding-top:20px;
 	width: 100%;
 }
 
-#contact_form {
+#donation_form {
 	width: 100%;
 	margin-top: 10px;
 	text-decoration: none;
@@ -213,3 +213,8 @@ p.information {
 	width: 75%;
 	text-align: center;
 }
+
+#input {
+	font-size: 20px;
+}
+
