@@ -31,7 +31,6 @@ body {
 	position: fixed;
 	width: 100%;
 	margin-left: 320px;
-	overflow:auto;
 }
 
 #image1 {
@@ -182,10 +181,11 @@ h1 {
 #imagediv {
 	background-image: url("../images/Makeawish.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
-	width: 80%;
-	background-position: center;
-	height:350px;
+	background-size: 80%;
+	width: 100%;
+	background-position: left center;
+	height:320px;
+
 }
 
 #donation_form {
@@ -217,8 +217,12 @@ h1.Donate {
 p.information {
 	width: 75%;
 	text-align: center;
+}
 
 #input {
 	font-size: 20px;
 }
 
+#input {
+	font-size: 20px;
+}
