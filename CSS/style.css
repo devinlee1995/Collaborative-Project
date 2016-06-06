@@ -172,10 +172,11 @@ h1 {
  	font-weight: bold;
  	position: fixed;
  	text-align: left;
- 	margin-left: 5%;
- 	margin-right: 5%;
+ 	margin-left: 2%;
+ 	margin-right: 2%;
  	line-height: 35px;
  	padding-bottom:20px;
+ 	text-align: justify;
 }
 
 #imagediv {
