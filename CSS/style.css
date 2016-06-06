@@ -179,7 +179,6 @@ h1 {
  	padding-bottom:20px;
 }
 
-<<<<<<< HEAD
 #imagediv {
 	background-image: url("../images/Makeawish.jpg");
 	background-repeat: no-repeat;
@@ -187,12 +186,6 @@ h1 {
 	width: 80%;
 	background-position: center;
 	height:350px;
-=======
-#image2 {
-	overflow:scroll;
-	padding-top:20px;
-	width: 100%;
->>>>>>> c66b51acf7e1ac7896a20b021396ac5f51c7160c
 }
 
 #donation_form {
@@ -224,13 +217,8 @@ h1.Donate {
 p.information {
 	width: 75%;
 	text-align: center;
-<<<<<<< HEAD
-}
-=======
-}
 
 #input {
 	font-size: 20px;
 }
 
->>>>>>> c66b51acf7e1ac7896a20b021396ac5f51c7160c
