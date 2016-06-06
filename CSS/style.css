@@ -98,16 +98,20 @@ a.links {
 
 
 a.links {
+	font-family: 'Gotham Book';
 	color: white;
 	font-size: 24px;
 	letter-spacing: 1px;
-	font-family: Helvetica;
 	text-decoration: none;
 	list-style: none;
 	line-height: 60px;
 }
 
 a.links:hover {
+	text-decoration: underline;
+}
+
+a.current {
 	text-decoration: underline;
 }
 
