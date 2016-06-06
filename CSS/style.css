@@ -182,3 +182,34 @@ h1 {
 	padding-top:20px;
 	width: 100%;
 }
+
+#contact_form {
+	width: 100%;
+	margin-top: 10px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+#row {
+	width: 100%;
+	margin-left: 25%;
+	padding-top:20px;
+	font-family: 'Gotham Book'; 
+}
+
+#button {
+	width: 100%;
+	margin-left: 25%;
+	font-family: 'Gotham Book'; 
+}
+
+h1.Donate {
+	color:black;
+ 	width: 75%;
+ 	font-weight: 400;
+}
+
+p.information {
+	width: 75%;
+	text-align: center;
+}
