@@ -31,6 +31,7 @@ body {
 	position: fixed;
 	width: 100%;
 	margin-left: 320px;
+	overflow:auto;
 }
 
 #image1 {
@@ -164,10 +165,11 @@ h1 {
  	color:black;
  	width: 75%;
  	font-weight: 400;
+ 	height:20px;
  }
 
  #text2 {
- 	font-size: 20px;
+ 	font-size: 17px;
  	font-weight: bold;
  	position: fixed;
  	text-align: left;
@@ -177,10 +179,20 @@ h1 {
  	padding-bottom:20px;
 }
 
+<<<<<<< HEAD
+#imagediv {
+	background-image: url("../images/Makeawish.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 80%;
+	background-position: center;
+	height:350px;
+=======
 #image2 {
 	overflow:scroll;
 	padding-top:20px;
 	width: 100%;
+>>>>>>> c66b51acf7e1ac7896a20b021396ac5f51c7160c
 }
 
 #donation_form {
@@ -212,9 +224,13 @@ h1.Donate {
 p.information {
 	width: 75%;
 	text-align: center;
+<<<<<<< HEAD
+}
+=======
 }
 
 #input {
 	font-size: 20px;
 }
 
+>>>>>>> c66b51acf7e1ac7896a20b021396ac5f51c7160c
