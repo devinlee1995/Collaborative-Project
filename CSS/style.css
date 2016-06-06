@@ -32,6 +32,7 @@ body {
 	width: 100%;
 	min-height: 100%;
 	margin-left: 320px;
+	overflow:auto;
 }
 
 #image1 {
@@ -165,10 +166,11 @@ h1 {
  	color:black;
  	width: 75%;
  	font-weight: 400;
+ 	height:20px;
  }
 
  #text2 {
- 	font-size: 20px;
+ 	font-size: 17px;
  	font-weight: bold;
  	position: fixed;
  	text-align: left;
@@ -178,9 +180,13 @@ h1 {
  	padding-bottom:20px;
 }
 
-#image2 {
-	padding-top:20px;
-	width: 100%;
+#imagediv {
+	background-image: url("../images/Makeawish.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 80%;
+	background-position: center;
+	height:350px;
 }
 
 #contact_form {
