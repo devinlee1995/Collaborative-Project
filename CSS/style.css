@@ -185,6 +185,7 @@ h1 {
 	width: 100%;
 	background-position: left center;
 	height:320px;
+
 }
 
 #donation_form {
@@ -216,6 +217,10 @@ h1.Donate {
 p.information {
 	width: 75%;
 	text-align: center;
+}
+
+#input {
+	font-size: 20px;
 }
 
 #input {
