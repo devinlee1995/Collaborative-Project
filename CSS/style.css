@@ -33,16 +33,9 @@ body {
 	margin-left: 320px;
 }
 
-#image1 {
-	overflow:auto;
-	width: 100%;
-	height: 100%;
-	background-image: url("../images/Cinderella.jpg");
-	background-repeat: no-repeat;
-	background-position: fixed;
-	position: fixed;
-	background-size: cover;
-	background-position:right;
+.images {
+	display:inline-block;
+	position: absolute;
 }
 
 #text1 {

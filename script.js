@@ -1,3 +1,20 @@
+var count = 1;
+var amount = 5;
+for (i = count+1; i < amount; i++) {
+	$("img").eq(i).hide();
+}; 
+$(".images").click(function(e){    
+		e.preventDefault() 
+		for (i = count; i < amount; i++) {
+			$("img").eq(i).fadeOut(200);
+		};
+		count = ((count+1)%(amount));
+		if (count == 0) {
+			count = 1;
+		}
+		$("img").eq(count).fadeIn(200);
+});
+
 document.getElementById('submit').onclick=function(){
 	var name = document.getElementById('name').value;
 	var donation = document.getElementById('donation').value;
@@ -16,7 +33,6 @@ document.getElementById('submit').onclick=function(){
 		}
 	}
 	return false;
-
 };
 
 $(function(){
